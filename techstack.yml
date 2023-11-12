@@ -1,0 +1,510 @@
+repo_name: anil-sezer/BackOfficeBaseDotNet6
+report_id: 0c6e5397a0479f0e62ef097e9e960283
+repo_type: Public
+timestamp: '2023-11-12T12:06:54+00:00'
+requested_by: anil-sezer
+provider: github
+branch: master
+detected_tools_count: 37
+tools:
+- name: C#
+  description: Simple, general-purpose, object-oriented programming language for the
+    .NET platform
+  website_url: http://csharp.net
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1015/1200px-C_Sharp_wordmark.svg.png
+  detection_source: Repo Metadata
+- name: ".NET"
+  description: A free, cross-platform, open source developer platform for building
+    many different types of applications
+  website_url: http://www.microsoft.com/net/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1014/IoPy1dce_400x400.png
+  detection_source: test/BackOfficeBase.Tests.Shared/BackOfficeBase.Tests.Shared.csproj
+  last_updated_by: anil
+  last_updated_on: 2022-06-17 14:04:15.000000000 Z
+- name: ".NET Core"
+  description: An Open Source, General-Purpose Development Platform Maintained by
+    Microsoft and the .NET Community
+  website_url: https://docs.microsoft.com/en-us/dotnet/core/
+  version: '6.0'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/6403/default_91fc1f0ee315262794273aa1387eaf8fed8436e6.png
+  detection_source_url: src/BackOfficeBase.Application/BackOfficeBase.Application.csproj
+  detection_source: test/BackOfficeBase.Tests.Web.Core/BackOfficeBase.Tests.Web.Core.csproj
+  last_updated_by: alirizaadiyahsi
+  last_updated_on: 2020-11-03 09:54:07.000000000 Z
+- name: ASP.NET Core
+  description: A cross-platform .NET framework for building modern cloud-based web
+    applications on Windows, Mac, or Linux
+  website_url: docs.microsoft.com/en-us/aspnet/core/
+  version: '6.0'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/11331/asp.net-core.png
+  detection_source_url: src/BackOfficeBase.Application/BackOfficeBase.Application.csproj
+  detection_source: test/BackOfficeBase.Tests.Web.Core/BackOfficeBase.Tests.Web.Core.csproj
+  last_updated_by: alirizaadiyahsi
+  last_updated_on: 2020-11-03 09:54:07.000000000 Z
+- name: Entity Framework
+  description: An object-relational mapper that enables .NET developers to work with
+    relational data
+  website_url: https://docs.microsoft.com/en-us/aspnet/entity-framework
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Object Relational Mapper (ORM)
+  image_url: https://img.stackshare.io/service/3251/no-img-open-source.png
+  detection_source: src/BackOfficeBase.Web.Api/BackOfficeBase.Web.Api.csproj
+  last_updated_by: anil
+  last_updated_on: 2022-06-17 14:04:15.000000000 Z
+- name: Entity Framework Core
+  description: 'Lightweight and cross-platform version of the popular Entity Framework '
+  website_url: https://docs.microsoft.com/en-us/ef/core/
+  version: 6.0.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Object Relational Mapper (ORM)
+  image_url: https://img.stackshare.io/service/10254/no-img-open-source.png
+  detection_source_url: src/BackOfficeBase.DataAccess/BackOfficeBase.DataAccess.csproj
+  detection_source: src/BackOfficeBase.Web.Api/BackOfficeBase.Web.Api.csproj
+  last_updated_by: anil
+  last_updated_on: 2022-06-17 14:04:15.000000000 Z
+- name: Microsoft SQL Server
+  description: A relational database management system developed by Microsoft
+  website_url: http://microsoft.com/sqlserver
+  open_source: false
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1027/sql_server.png
+  detection_source: src/BackOfficeBase.Web.Api/BackOfficeBase.Web.Api.csproj
+  last_updated_by: anil
+  last_updated_on: 2022-06-17 14:04:15.000000000 Z
+- name: PostgreSQL
+  description: A powerful, open source object-relational database system
+  website_url: http://www.postgresql.org/
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1028/ASOhU5xJ.png
+  detection_source: test/BackOfficeBase.Tests.IntegrationTests/BackOfficeBase.Tests.IntegrationTests.csproj
+  last_updated_by: alirizaadiyahsi
+  last_updated_on: 2020-09-07 21:37:26.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source: ".github/workflows/dotnet-core.yml"
+  last_updated_by: alirizaadiyahsi
+  last_updated_on: 2020-06-26 21:24:46.000000000 Z
+- name: Moq
+  description: The most popular and friendly mocking framework for .NET
+  website_url: https://github.com/Moq/moq4
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/1628/1434934.png
+  detection_source: test/BackOfficeBase.Tests.Shared/BackOfficeBase.Tests.Shared.csproj
+  last_updated_by: alirizaadiyahsi
+  last_updated_on: 2020-04-20 22:25:34.000000000 Z
+- name: NuGet
+  description: The package manager for .NET
+  website_url: https://www.nuget.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/2637/6I3oEOP4_400x400.jpg
+  detection_source: test/BackOfficeBase.Tests.Shared/BackOfficeBase.Tests.Shared.csproj
+  last_updated_by: alirizaadiyahsi
+  last_updated_on: 2020-04-20 22:25:34.000000000 Z
+- name: Serilog
+  description: A portable and structured logging framework to record diagnostic logs
+  website_url: http://serilog.net/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Log Management
+  image_url: https://img.stackshare.io/service/4283/5691010.png
+  detection_source: src/BackOfficeBase.Web.Api/BackOfficeBase.Web.Api.csproj
+  last_updated_by: alirizaadiyahsi
+  last_updated_on: 2020-09-18 08:34:27.000000000 Z
+- name: Visual Studio
+  description: State-of-the-art tools and services that you can use to create great
+    apps for devices, the cloud, and everything in between.
+  website_url: http://msdn.microsoft.com/en-us/vstudio/aa718325.aspx
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Integrated Development Environment
+  image_url: https://img.stackshare.io/service/1451/SR2hUhQN.png
+  detection_source: BackOfficeBase.sln
+  last_updated_by: alirizaadiyahsi
+  last_updated_on: 2020-04-18 22:21:39.000000000 Z
+- name: xUnit
+  description: An open source, community-focused unit testing tool
+  website_url: http://xunit.github.io/
+  version: 2.4.1
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/3077/ca5a327feb49ddfe1f4b11548907e5a1_400x400.png
+  detection_source_url: test/BackOfficeBase.Tests.Application/BackOfficeBase.Tests.Application.csproj
+  detection_source: test/BackOfficeBase.Tests.Web.Core/BackOfficeBase.Tests.Web.Core.csproj
+  last_updated_by: alirizaadiyahsi
+  last_updated_on: 2020-04-20 22:25:34.000000000 Z
+- name: JSON Web Token
+  description: A JSON-based open standard for creating access tokens
+  website_url: http://jwt.io/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: User Management and Authentication
+  image_url: https://img.stackshare.io/service/6417/jwt-icon.png
+  detection_source: src/modules/BackOfficeBase.Modules.Authentication/BackOfficeBase.Modules.Authentication.csproj
+  last_updated_by: alirizaadiyahsi
+  last_updated_on: 2020-04-22 19:31:47.000000000 Z
+- name: MailKit
+  description: A cross-platform .NET library for IMAP, POP3, and SMTP
+  website_url: https://github.com/jstedfast/MailKit
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Communications
+  sub_category: Email API
+  image_url: https://img.stackshare.io/service/7095/no-img-open-source.png
+  detection_source: src/BackOfficeBase.Application/BackOfficeBase.Application.csproj
+  last_updated_by: alirizaadiyahsi
+  last_updated_on: 2020-09-18 08:34:27.000000000 Z
+- name: AutoMapper.Extensions.Microsoft.DependencyInjection
+  description: AutoMapper extensions for ASP.NET Core
+  package_url: https://www.nuget.org/AutoMapper.Extensions.Microsoft.DependencyInjection
+  version: 8.1.0
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13248/default_3b9faa77d26eef0a944d4dab8d562db23059cb72.png
+  detection_source_url: src/BackOfficeBase.Application/BackOfficeBase.Application.csproj
+  detection_source: src/BackOfficeBase.Application/BackOfficeBase.Application.csproj
+  last_updated_by: alirizaadiyahsi
+  last_updated_on: 2020-11-03 09:54:07.000000000 Z
+- name: Microsoft.AspNet.WebApi.Client
+  description: This package adds support for formatting and content negotiation to
+    System.Net.Http
+  package_url: https://www.nuget.org/Microsoft.AspNet.WebApi.Client
+  version: 5.2.9
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12870/default_3ee9e3bfd65cbae9db28ab78b712a58bcd81af27.png
+  detection_source_url: test/BackOfficeBase.Tests.IntegrationTests/BackOfficeBase.Tests.IntegrationTests.csproj
+  detection_source: test/BackOfficeBase.Tests.IntegrationTests/BackOfficeBase.Tests.IntegrationTests.csproj
+  last_updated_by: anil
+  last_updated_on: 2022-06-17 14:04:15.000000000 Z
+- name: Microsoft.AspNetCore.Authentication.JwtBearer
+  description: ASP.NET Core middleware that enables an application to receive an OpenID
+    Connect bearer token
+  package_url: https://www.nuget.org/Microsoft.AspNetCore.Authentication.JwtBearer
+  version: 6.0.6
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12968/default_dd10728859f7e363ef13345d855b2daba48cace4.png
+  detection_source_url: src/BackOfficeBase.Web.Api/BackOfficeBase.Web.Api.csproj
+  detection_source: src/BackOfficeBase.Web.Api/BackOfficeBase.Web.Api.csproj
+  last_updated_by: anil
+  last_updated_on: 2022-06-17 14:04:15.000000000 Z
+- name: Microsoft.AspNetCore.Http.Abstractions
+  description: ASP.NET Core HTTP object model for HTTP requests and responses and
+    also common extension methods for registering middleware in an IApplicationBuilder
+  package_url: https://www.nuget.org/Microsoft.AspNetCore.Http.Abstractions
+  version: 2.2.0
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12884/default_485731cffe5047176f704e34ccfabc7dc075f3d9.png
+  detection_source_url: src/BackOfficeBase.DataAccess/BackOfficeBase.DataAccess.csproj
+  detection_source: src/BackOfficeBase.DataAccess/BackOfficeBase.DataAccess.csproj
+  last_updated_by: anil
+  last_updated_on: 2022-06-17 14:04:15.000000000 Z
+- name: Microsoft.AspNetCore.Identity.EntityFrameworkCore
+  description: ASP.NET Core Identity provider that uses Entity Framework Core
+  package_url: https://www.nuget.org/Microsoft.AspNetCore.Identity.EntityFrameworkCore
+  version: 6.0.6
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13053/default_ed36ff3c005af695725e05bb15ea5b1f03de31f3.png
+  detection_source_url: src/BackOfficeBase.DataAccess/BackOfficeBase.DataAccess.csproj
+  detection_source: src/BackOfficeBase.Domain/BackOfficeBase.Domain.csproj
+  last_updated_by: anil
+  last_updated_on: 2022-06-17 14:04:15.000000000 Z
+- name: Microsoft.AspNetCore.Mvc.Core
+  description: ASP.NET Core MVC core components
+  package_url: https://www.nuget.org/Microsoft.AspNetCore.Mvc.Core
+  version: 6.0.0
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12903/default_4b18ad6ce0b5b2bd1dc822207c362ce8e0f74098.png
+  detection_source_url: src/BackOfficeBase.Application/BackOfficeBase.Application.csproj
+  detection_source: src/BackOfficeBase.Web.Core/BackOfficeBase.Web.Core.csproj
+  last_updated_by: alirizaadiyahsi
+  last_updated_on: 2020-11-03 09:54:07.000000000 Z
+- name: Microsoft.AspNetCore.Mvc.NewtonsoftJson
+  description: ASP.NET Core MVC features that use Newtonsoft.Json
+  package_url: https://www.nuget.org/Microsoft.AspNetCore.Mvc.NewtonsoftJson
+  version: 6.0.6
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13258/default_d2db5a200c4fe2d08cbdb2174cc230708973870b.png
+  detection_source_url: src/BackOfficeBase.Web.Api/BackOfficeBase.Web.Api.csproj
+  detection_source: src/BackOfficeBase.Web.Api/BackOfficeBase.Web.Api.csproj
+  last_updated_by: anil
+  last_updated_on: 2022-06-17 14:04:15.000000000 Z
+- name: Microsoft.AspNetCore.TestHost
+  description: ASP.NET Core web server for writing and running tests
+  package_url: https://www.nuget.org/Microsoft.AspNetCore.TestHost
+  version: 6.0.6
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13268/default_3b9faa77d26eef0a944d4dab8d562db23059cb72.png
+  detection_source_url: test/BackOfficeBase.Tests.Shared/BackOfficeBase.Tests.Shared.csproj
+  detection_source: test/BackOfficeBase.Tests.Shared/BackOfficeBase.Tests.Shared.csproj
+  last_updated_by: anil
+  last_updated_on: 2022-06-17 14:04:15.000000000 Z
+- name: Microsoft.EntityFrameworkCore.InMemory
+  description: In-memory database provider for Entity Framework Core
+  package_url: https://www.nuget.org/Microsoft.EntityFrameworkCore.InMemory
+  version: 6.0.6
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13150/default_81ac985912284073db895b0d26abf3657532a164.png
+  detection_source_url: src/BackOfficeBase.Domain/BackOfficeBase.Domain.csproj
+  detection_source: test/BackOfficeBase.Tests.Shared/BackOfficeBase.Tests.Shared.csproj
+  last_updated_by: anil
+  last_updated_on: 2022-06-17 14:04:15.000000000 Z
+- name: Microsoft.EntityFrameworkCore.Proxies
+  description: Lazy-loading proxies for EF Core
+  package_url: https://www.nuget.org/Microsoft.EntityFrameworkCore.Proxies
+  version: 6.0.6
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13429/default_b5cc6dac756daf8a76f449b0db2d2933859829df.png
+  detection_source_url: src/BackOfficeBase.DataAccess/BackOfficeBase.DataAccess.csproj
+  detection_source: test/BackOfficeBase.Tests.Shared/BackOfficeBase.Tests.Shared.csproj
+  last_updated_by: anil
+  last_updated_on: 2022-06-17 14:04:15.000000000 Z
+- name: Microsoft.EntityFrameworkCore.SqlServer
+  description: Microsoft SQL Server database provider for Entity Framework Core
+  package_url: https://www.nuget.org/Microsoft.EntityFrameworkCore.SqlServer
+  version: 6.0.6
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12891/default_4e8402857d2ce7356903ee7422d9b4a0f23cc137.png
+  detection_source_url: src/BackOfficeBase.DataAccess/BackOfficeBase.DataAccess.csproj
+  detection_source: src/BackOfficeBase.Web.Api/BackOfficeBase.Web.Api.csproj
+  last_updated_by: anil
+  last_updated_on: 2022-06-17 14:04:15.000000000 Z
+- name: Microsoft.EntityFrameworkCore.Tools
+  description: Entity Framework Core Tools for the NuGet Package Manager Console in
+    Visual Studio
+  package_url: https://www.nuget.org/Microsoft.EntityFrameworkCore.Tools
+  version: 6.0.6
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13138/default_a057bdad489be3cb053d372a68695da4ac94962d.png
+  detection_source_url: src/BackOfficeBase.DataAccess/BackOfficeBase.DataAccess.csproj
+  detection_source: src/BackOfficeBase.DataAccess/BackOfficeBase.DataAccess.csproj
+  last_updated_by: anil
+  last_updated_on: 2022-06-17 14:04:15.000000000 Z
+- name: Microsoft.Extensions.DependencyInjection.Abstractions
+  description: Abstractions for dependency injection
+  package_url: https://www.nuget.org/Microsoft.Extensions.DependencyInjection.Abstractions
+  version: 6.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12848/default_ccf90b566c21ad9eaa59733f297e535ea39fb3b4.png
+  detection_source_url: test/BackOfficeBase.Tests.Shared/BackOfficeBase.Tests.Shared.csproj
+  detection_source: test/BackOfficeBase.Tests.Shared/BackOfficeBase.Tests.Shared.csproj
+  last_updated_by: anil
+  last_updated_on: 2022-06-17 14:04:15.000000000 Z
+- name: Microsoft.IdentityModel.Tokens
+  description: Includes types that provide support for SecurityTokens
+  package_url: https://www.nuget.org/Microsoft.IdentityModel.Tokens
+  version: 6.8.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13026/default_1075538f3811f68c42abfdf5ebcf152058e4076d.png
+  detection_source_url: src/BackOfficeBase.Web.Core/BackOfficeBase.Web.Core.csproj
+  detection_source: src/BackOfficeBase.Web.Core/BackOfficeBase.Web.Core.csproj
+  last_updated_by: alirizaadiyahsi
+  last_updated_on: 2020-11-03 09:54:07.000000000 Z
+- name: Newtonsoft.Json
+  description: Json.NET is a popular high-performance JSON framework for .NET
+  package_url: https://www.nuget.org/Newtonsoft.Json
+  version: 12.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/nuget/image.png
+  detection_source_url: src/BackOfficeBase.Utilities/BackOfficeBase.Utilities.csproj
+  detection_source: src/BackOfficeBase.Utilities/BackOfficeBase.Utilities.csproj
+  last_updated_by: alirizaadiyahsi
+  last_updated_on: 2020-06-05 19:09:31.000000000 Z
+  vulnerabilities:
+  - name: Improper Handling of Exceptional Conditions in Newtonsoft.Json
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-5crp-9r3c-p9vr
+    detected_date: Jun 23
+    severity: high
+    first_patched: 13.0.1
+- name: Serilog.AspNetCore
+  description: Serilog support for ASP.NET Core logging
+  package_url: https://www.nuget.org/Serilog.AspNetCore
+  version: 3.4.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13194/default_18a92235046d8c8db548cd22b87cf5792dc31759.png
+  detection_source_url: src/BackOfficeBase.Web.Api/BackOfficeBase.Web.Api.csproj
+  detection_source: src/BackOfficeBase.Web.Api/BackOfficeBase.Web.Api.csproj
+  last_updated_by: anil
+  last_updated_on: 2022-06-17 14:04:15.000000000 Z
+- name: Swashbuckle.AspNetCore.Filters
+  description: Some additional useful filters for Swashbuckle.AspNetCore
+  package_url: https://www.nuget.org/Swashbuckle.AspNetCore.Filters
+  version: 6.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/14375/default_6201d4e597174b346fb0490accc0cfd403259bf9.png
+  detection_source_url: src/BackOfficeBase.Web.Api/BackOfficeBase.Web.Api.csproj
+  detection_source: src/BackOfficeBase.Web.Api/BackOfficeBase.Web.Api.csproj
+  last_updated_by: anil
+  last_updated_on: 2022-06-17 14:04:15.000000000 Z
+- name: System.IdentityModel.Tokens.Jwt
+  description: Includes types that provide support for creating
+  package_url: https://www.nuget.org/System.IdentityModel.Tokens.Jwt
+  version: 6.8.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12920/default_e43fb8cd51d87352a1197706afa527de5c3baecd.png
+  detection_source_url: src/modules/BackOfficeBase.Modules.Authentication/BackOfficeBase.Modules.Authentication.csproj
+  detection_source: src/modules/BackOfficeBase.Modules.Authentication/BackOfficeBase.Modules.Authentication.csproj
+  last_updated_by: alirizaadiyahsi
+  last_updated_on: 2020-11-03 09:54:07.000000000 Z
+- name: System.Linq.Dynamic.Core
+  description: This is a .NETStandard / .NET Core port of the the Microsoft assembly
+    for the .Net 4.0 Dynamic language functionality
+  package_url: https://www.nuget.org/System.Linq.Dynamic.Core
+  version: 1.2.5
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13064/default_1b8be57b16f1f491c0e5f67e5d1021f4df68ea30.png
+  detection_source_url: src/BackOfficeBase.Application/BackOfficeBase.Application.csproj
+  detection_source: src/BackOfficeBase.Application/BackOfficeBase.Application.csproj
+  last_updated_by: alirizaadiyahsi
+  last_updated_on: 2020-11-03 09:54:07.000000000 Z
+  vulnerabilities:
+  - name: Dynamic Linq vulnerable to remote code execution
+    cve_id: CVE-2023-32571
+    cve_url: https://github.com/advisories/GHSA-w65q-jcmv-28gj
+    detected_date: Jun 28
+    severity: critical
+    first_patched: 1.3.0
+- name: xunit.runner.visualstudio
+  description: Visual Studio 2012+ Test Explorer runner for the xUnit.net framework
+  package_url: https://www.nuget.org/xunit.runner.visualstudio
+  version: 2.4.3
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13260/default_d2db5a200c4fe2d08cbdb2174cc230708973870b.png
+  detection_source_url: test/BackOfficeBase.Tests.Application/BackOfficeBase.Tests.Application.csproj
+  detection_source: test/BackOfficeBase.Tests.Web.Core/BackOfficeBase.Tests.Web.Core.csproj
+  last_updated_by: alirizaadiyahsi
+  last_updated_on: 2020-08-20 17:03:57.000000000 Z
