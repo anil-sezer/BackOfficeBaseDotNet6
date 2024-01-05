@@ -1,7 +1,8 @@
 repo_name: anil-sezer/BackOfficeBaseDotNet6
 report_id: 0c6e5397a0479f0e62ef097e9e960283
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-12T12:06:54+00:00'
+timestamp: '2024-01-05T08:48:46+00:00'
 requested_by: anil-sezer
 provider: github
 branch: master
@@ -16,6 +17,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1015/1200px-C_Sharp_wordmark.svg.png
+  detection_source_url: https://github.com/anil-sezer/BackOfficeBaseDotNet6
   detection_source: Repo Metadata
 - name: ".NET"
   description: A free, cross-platform, open source developer platform for building
@@ -27,6 +29,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
   image_url: https://img.stackshare.io/service/1014/IoPy1dce_400x400.png
+  detection_source_url: https://github.com/anil-sezer/BackOfficeBaseDotNet6/blob/master/test/BackOfficeBase.Tests.Shared/BackOfficeBase.Tests.Shared.csproj
   detection_source: test/BackOfficeBase.Tests.Shared/BackOfficeBase.Tests.Shared.csproj
   last_updated_by: anil
   last_updated_on: 2022-06-17 14:04:15.000000000 Z
@@ -41,8 +44,8 @@ tools:
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
   image_url: https://img.stackshare.io/service/6403/default_91fc1f0ee315262794273aa1387eaf8fed8436e6.png
-  detection_source_url: src/BackOfficeBase.Application/BackOfficeBase.Application.csproj
-  detection_source: test/BackOfficeBase.Tests.Web.Core/BackOfficeBase.Tests.Web.Core.csproj
+  detection_source_url: https://github.com/anil-sezer/BackOfficeBaseDotNet6/blob/master/src/BackOfficeBase.Application/BackOfficeBase.Application.csproj
+  detection_source: src/BackOfficeBase.Application/BackOfficeBase.Application.csproj
   last_updated_by: alirizaadiyahsi
   last_updated_on: 2020-11-03 09:54:07.000000000 Z
 - name: ASP.NET Core
@@ -56,8 +59,8 @@ tools:
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
   image_url: https://img.stackshare.io/service/11331/asp.net-core.png
-  detection_source_url: src/BackOfficeBase.Application/BackOfficeBase.Application.csproj
-  detection_source: test/BackOfficeBase.Tests.Web.Core/BackOfficeBase.Tests.Web.Core.csproj
+  detection_source_url: https://github.com/anil-sezer/BackOfficeBaseDotNet6/blob/master/src/BackOfficeBase.Application/BackOfficeBase.Application.csproj
+  detection_source: src/BackOfficeBase.Application/BackOfficeBase.Application.csproj
   last_updated_by: alirizaadiyahsi
   last_updated_on: 2020-11-03 09:54:07.000000000 Z
 - name: Entity Framework
@@ -70,7 +73,8 @@ tools:
   category: Data Stores
   sub_category: Object Relational Mapper (ORM)
   image_url: https://img.stackshare.io/service/3251/no-img-open-source.png
-  detection_source: src/BackOfficeBase.Web.Api/BackOfficeBase.Web.Api.csproj
+  detection_source_url: https://github.com/anil-sezer/BackOfficeBaseDotNet6/blob/master/src/BackOfficeBase.DataAccess/BackOfficeBase.DataAccess.csproj
+  detection_source: src/BackOfficeBase.DataAccess/BackOfficeBase.DataAccess.csproj
   last_updated_by: anil
   last_updated_on: 2022-06-17 14:04:15.000000000 Z
 - name: Entity Framework Core
@@ -83,8 +87,8 @@ tools:
   category: Data Stores
   sub_category: Object Relational Mapper (ORM)
   image_url: https://img.stackshare.io/service/10254/no-img-open-source.png
-  detection_source_url: src/BackOfficeBase.DataAccess/BackOfficeBase.DataAccess.csproj
-  detection_source: src/BackOfficeBase.Web.Api/BackOfficeBase.Web.Api.csproj
+  detection_source_url: https://github.com/anil-sezer/BackOfficeBaseDotNet6/blob/master/src/BackOfficeBase.DataAccess/BackOfficeBase.DataAccess.csproj
+  detection_source: src/BackOfficeBase.DataAccess/BackOfficeBase.DataAccess.csproj
   last_updated_by: anil
   last_updated_on: 2022-06-17 14:04:15.000000000 Z
 - name: Microsoft SQL Server
@@ -95,7 +99,8 @@ tools:
   category: Data Stores
   sub_category: Databases
   image_url: https://img.stackshare.io/service/1027/sql_server.png
-  detection_source: src/BackOfficeBase.Web.Api/BackOfficeBase.Web.Api.csproj
+  detection_source_url: https://github.com/anil-sezer/BackOfficeBaseDotNet6/blob/master/src/BackOfficeBase.DataAccess/BackOfficeBase.DataAccess.csproj
+  detection_source: src/BackOfficeBase.DataAccess/BackOfficeBase.DataAccess.csproj
   last_updated_by: anil
   last_updated_on: 2022-06-17 14:04:15.000000000 Z
 - name: PostgreSQL
@@ -106,6 +111,7 @@ tools:
   category: Data Stores
   sub_category: Databases
   image_url: https://img.stackshare.io/service/1028/ASOhU5xJ.png
+  detection_source_url: https://github.com/anil-sezer/BackOfficeBaseDotNet6/blob/master/test/BackOfficeBase.Tests.IntegrationTests/BackOfficeBase.Tests.IntegrationTests.csproj
   detection_source: test/BackOfficeBase.Tests.IntegrationTests/BackOfficeBase.Tests.IntegrationTests.csproj
   last_updated_by: alirizaadiyahsi
   last_updated_on: 2020-09-07 21:37:26.000000000 Z
@@ -117,6 +123,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/anil-sezer/BackOfficeBaseDotNet6
   detection_source: Repo Metadata
 - name: GitHub Actions
   description: Automate your workflow from idea to production
@@ -126,6 +133,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/anil-sezer/BackOfficeBaseDotNet6/blob/master/.github/workflows/dotnet-core.yml
   detection_source: ".github/workflows/dotnet-core.yml"
   last_updated_by: alirizaadiyahsi
   last_updated_on: 2020-06-26 21:24:46.000000000 Z
@@ -137,6 +145,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Testing Frameworks
   image_url: https://img.stackshare.io/service/1628/1434934.png
+  detection_source_url: https://github.com/anil-sezer/BackOfficeBaseDotNet6/blob/master/test/BackOfficeBase.Tests.Shared/BackOfficeBase.Tests.Shared.csproj
   detection_source: test/BackOfficeBase.Tests.Shared/BackOfficeBase.Tests.Shared.csproj
   last_updated_by: alirizaadiyahsi
   last_updated_on: 2020-04-20 22:25:34.000000000 Z
@@ -148,6 +157,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/service/2637/6I3oEOP4_400x400.jpg
+  detection_source_url: https://github.com/anil-sezer/BackOfficeBaseDotNet6/blob/master/test/BackOfficeBase.Tests.Shared/BackOfficeBase.Tests.Shared.csproj
   detection_source: test/BackOfficeBase.Tests.Shared/BackOfficeBase.Tests.Shared.csproj
   last_updated_by: alirizaadiyahsi
   last_updated_on: 2020-04-20 22:25:34.000000000 Z
@@ -160,7 +170,8 @@ tools:
   category: Monitoring
   sub_category: Log Management
   image_url: https://img.stackshare.io/service/4283/5691010.png
-  detection_source: src/BackOfficeBase.Web.Api/BackOfficeBase.Web.Api.csproj
+  detection_source_url: https://github.com/anil-sezer/BackOfficeBaseDotNet6/blob/master/src/BackOfficeBase.Application/BackOfficeBase.Application.csproj
+  detection_source: src/BackOfficeBase.Application/BackOfficeBase.Application.csproj
   last_updated_by: alirizaadiyahsi
   last_updated_on: 2020-09-18 08:34:27.000000000 Z
 - name: Visual Studio
@@ -172,6 +183,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Integrated Development Environment
   image_url: https://img.stackshare.io/service/1451/SR2hUhQN.png
+  detection_source_url: https://github.com/anil-sezer/BackOfficeBaseDotNet6/blob/master/BackOfficeBase.sln
   detection_source: BackOfficeBase.sln
   last_updated_by: alirizaadiyahsi
   last_updated_on: 2020-04-18 22:21:39.000000000 Z
@@ -184,8 +196,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Testing Frameworks
   image_url: https://img.stackshare.io/service/3077/ca5a327feb49ddfe1f4b11548907e5a1_400x400.png
-  detection_source_url: test/BackOfficeBase.Tests.Application/BackOfficeBase.Tests.Application.csproj
-  detection_source: test/BackOfficeBase.Tests.Web.Core/BackOfficeBase.Tests.Web.Core.csproj
+  detection_source_url: https://github.com/anil-sezer/BackOfficeBaseDotNet6/blob/master/test/BackOfficeBase.Tests.Application/BackOfficeBase.Tests.Application.csproj
+  detection_source: test/BackOfficeBase.Tests.Application/BackOfficeBase.Tests.Application.csproj
   last_updated_by: alirizaadiyahsi
   last_updated_on: 2020-04-20 22:25:34.000000000 Z
 - name: JSON Web Token
@@ -197,7 +209,8 @@ tools:
   category: Application Utilities
   sub_category: User Management and Authentication
   image_url: https://img.stackshare.io/service/6417/jwt-icon.png
-  detection_source: src/modules/BackOfficeBase.Modules.Authentication/BackOfficeBase.Modules.Authentication.csproj
+  detection_source_url: https://github.com/anil-sezer/BackOfficeBaseDotNet6/blob/master/src/BackOfficeBase.Web.Api/BackOfficeBase.Web.Api.csproj
+  detection_source: src/BackOfficeBase.Web.Api/BackOfficeBase.Web.Api.csproj
   last_updated_by: alirizaadiyahsi
   last_updated_on: 2020-04-22 19:31:47.000000000 Z
 - name: MailKit
@@ -209,6 +222,7 @@ tools:
   category: Communications
   sub_category: Email API
   image_url: https://img.stackshare.io/service/7095/no-img-open-source.png
+  detection_source_url: https://github.com/anil-sezer/BackOfficeBaseDotNet6/blob/master/src/BackOfficeBase.Application/BackOfficeBase.Application.csproj
   detection_source: src/BackOfficeBase.Application/BackOfficeBase.Application.csproj
   last_updated_by: alirizaadiyahsi
   last_updated_on: 2020-09-18 08:34:27.000000000 Z
@@ -221,7 +235,7 @@ tools:
   category: Libraries
   sub_category: NuGet Packages
   image_url: https://img.stackshare.io/package/13248/default_3b9faa77d26eef0a944d4dab8d562db23059cb72.png
-  detection_source_url: src/BackOfficeBase.Application/BackOfficeBase.Application.csproj
+  detection_source_url: https://github.com/anil-sezer/BackOfficeBaseDotNet6/blob/master/src/BackOfficeBase.Application/BackOfficeBase.Application.csproj
   detection_source: src/BackOfficeBase.Application/BackOfficeBase.Application.csproj
   last_updated_by: alirizaadiyahsi
   last_updated_on: 2020-11-03 09:54:07.000000000 Z
@@ -236,7 +250,7 @@ tools:
   category: Libraries
   sub_category: NuGet Packages
   image_url: https://img.stackshare.io/package/12870/default_3ee9e3bfd65cbae9db28ab78b712a58bcd81af27.png
-  detection_source_url: test/BackOfficeBase.Tests.IntegrationTests/BackOfficeBase.Tests.IntegrationTests.csproj
+  detection_source_url: https://github.com/anil-sezer/BackOfficeBaseDotNet6/blob/master/test/BackOfficeBase.Tests.IntegrationTests/BackOfficeBase.Tests.IntegrationTests.csproj
   detection_source: test/BackOfficeBase.Tests.IntegrationTests/BackOfficeBase.Tests.IntegrationTests.csproj
   last_updated_by: anil
   last_updated_on: 2022-06-17 14:04:15.000000000 Z
@@ -251,7 +265,7 @@ tools:
   category: Libraries
   sub_category: NuGet Packages
   image_url: https://img.stackshare.io/package/12968/default_dd10728859f7e363ef13345d855b2daba48cace4.png
-  detection_source_url: src/BackOfficeBase.Web.Api/BackOfficeBase.Web.Api.csproj
+  detection_source_url: https://github.com/anil-sezer/BackOfficeBaseDotNet6/blob/master/src/BackOfficeBase.Web.Api/BackOfficeBase.Web.Api.csproj
   detection_source: src/BackOfficeBase.Web.Api/BackOfficeBase.Web.Api.csproj
   last_updated_by: anil
   last_updated_on: 2022-06-17 14:04:15.000000000 Z
@@ -265,7 +279,7 @@ tools:
   category: Libraries
   sub_category: NuGet Packages
   image_url: https://img.stackshare.io/package/12884/default_485731cffe5047176f704e34ccfabc7dc075f3d9.png
-  detection_source_url: src/BackOfficeBase.DataAccess/BackOfficeBase.DataAccess.csproj
+  detection_source_url: https://github.com/anil-sezer/BackOfficeBaseDotNet6/blob/master/src/BackOfficeBase.DataAccess/BackOfficeBase.DataAccess.csproj
   detection_source: src/BackOfficeBase.DataAccess/BackOfficeBase.DataAccess.csproj
   last_updated_by: anil
   last_updated_on: 2022-06-17 14:04:15.000000000 Z
@@ -279,8 +293,8 @@ tools:
   category: Libraries
   sub_category: NuGet Packages
   image_url: https://img.stackshare.io/package/13053/default_ed36ff3c005af695725e05bb15ea5b1f03de31f3.png
-  detection_source_url: src/BackOfficeBase.DataAccess/BackOfficeBase.DataAccess.csproj
-  detection_source: src/BackOfficeBase.Domain/BackOfficeBase.Domain.csproj
+  detection_source_url: https://github.com/anil-sezer/BackOfficeBaseDotNet6/blob/master/src/BackOfficeBase.DataAccess/BackOfficeBase.DataAccess.csproj
+  detection_source: src/BackOfficeBase.DataAccess/BackOfficeBase.DataAccess.csproj
   last_updated_by: anil
   last_updated_on: 2022-06-17 14:04:15.000000000 Z
 - name: Microsoft.AspNetCore.Mvc.Core
@@ -292,7 +306,7 @@ tools:
   category: Libraries
   sub_category: NuGet Packages
   image_url: https://img.stackshare.io/package/12903/default_4b18ad6ce0b5b2bd1dc822207c362ce8e0f74098.png
-  detection_source_url: src/BackOfficeBase.Application/BackOfficeBase.Application.csproj
+  detection_source_url: https://github.com/anil-sezer/BackOfficeBaseDotNet6/blob/master/src/BackOfficeBase.Application/BackOfficeBase.Application.csproj
   detection_source: src/BackOfficeBase.Web.Core/BackOfficeBase.Web.Core.csproj
   last_updated_by: alirizaadiyahsi
   last_updated_on: 2020-11-03 09:54:07.000000000 Z
@@ -306,7 +320,7 @@ tools:
   category: Libraries
   sub_category: NuGet Packages
   image_url: https://img.stackshare.io/package/13258/default_d2db5a200c4fe2d08cbdb2174cc230708973870b.png
-  detection_source_url: src/BackOfficeBase.Web.Api/BackOfficeBase.Web.Api.csproj
+  detection_source_url: https://github.com/anil-sezer/BackOfficeBaseDotNet6/blob/master/src/BackOfficeBase.Web.Api/BackOfficeBase.Web.Api.csproj
   detection_source: src/BackOfficeBase.Web.Api/BackOfficeBase.Web.Api.csproj
   last_updated_by: anil
   last_updated_on: 2022-06-17 14:04:15.000000000 Z
@@ -320,7 +334,7 @@ tools:
   category: Libraries
   sub_category: NuGet Packages
   image_url: https://img.stackshare.io/package/13268/default_3b9faa77d26eef0a944d4dab8d562db23059cb72.png
-  detection_source_url: test/BackOfficeBase.Tests.Shared/BackOfficeBase.Tests.Shared.csproj
+  detection_source_url: https://github.com/anil-sezer/BackOfficeBaseDotNet6/blob/master/test/BackOfficeBase.Tests.Shared/BackOfficeBase.Tests.Shared.csproj
   detection_source: test/BackOfficeBase.Tests.Shared/BackOfficeBase.Tests.Shared.csproj
   last_updated_by: anil
   last_updated_on: 2022-06-17 14:04:15.000000000 Z
@@ -334,8 +348,8 @@ tools:
   category: Libraries
   sub_category: NuGet Packages
   image_url: https://img.stackshare.io/package/13150/default_81ac985912284073db895b0d26abf3657532a164.png
-  detection_source_url: src/BackOfficeBase.Domain/BackOfficeBase.Domain.csproj
-  detection_source: test/BackOfficeBase.Tests.Shared/BackOfficeBase.Tests.Shared.csproj
+  detection_source_url: https://github.com/anil-sezer/BackOfficeBaseDotNet6/blob/master/src/BackOfficeBase.Domain/BackOfficeBase.Domain.csproj
+  detection_source: src/BackOfficeBase.Domain/BackOfficeBase.Domain.csproj
   last_updated_by: anil
   last_updated_on: 2022-06-17 14:04:15.000000000 Z
 - name: Microsoft.EntityFrameworkCore.Proxies
@@ -348,8 +362,8 @@ tools:
   category: Libraries
   sub_category: NuGet Packages
   image_url: https://img.stackshare.io/package/13429/default_b5cc6dac756daf8a76f449b0db2d2933859829df.png
-  detection_source_url: src/BackOfficeBase.DataAccess/BackOfficeBase.DataAccess.csproj
-  detection_source: test/BackOfficeBase.Tests.Shared/BackOfficeBase.Tests.Shared.csproj
+  detection_source_url: https://github.com/anil-sezer/BackOfficeBaseDotNet6/blob/master/src/BackOfficeBase.DataAccess/BackOfficeBase.DataAccess.csproj
+  detection_source: src/BackOfficeBase.DataAccess/BackOfficeBase.DataAccess.csproj
   last_updated_by: anil
   last_updated_on: 2022-06-17 14:04:15.000000000 Z
 - name: Microsoft.EntityFrameworkCore.SqlServer
@@ -362,8 +376,8 @@ tools:
   category: Libraries
   sub_category: NuGet Packages
   image_url: https://img.stackshare.io/package/12891/default_4e8402857d2ce7356903ee7422d9b4a0f23cc137.png
-  detection_source_url: src/BackOfficeBase.DataAccess/BackOfficeBase.DataAccess.csproj
-  detection_source: src/BackOfficeBase.Web.Api/BackOfficeBase.Web.Api.csproj
+  detection_source_url: https://github.com/anil-sezer/BackOfficeBaseDotNet6/blob/master/src/BackOfficeBase.DataAccess/BackOfficeBase.DataAccess.csproj
+  detection_source: src/BackOfficeBase.DataAccess/BackOfficeBase.DataAccess.csproj
   last_updated_by: anil
   last_updated_on: 2022-06-17 14:04:15.000000000 Z
 - name: Microsoft.EntityFrameworkCore.Tools
@@ -377,7 +391,7 @@ tools:
   category: Libraries
   sub_category: NuGet Packages
   image_url: https://img.stackshare.io/package/13138/default_a057bdad489be3cb053d372a68695da4ac94962d.png
-  detection_source_url: src/BackOfficeBase.DataAccess/BackOfficeBase.DataAccess.csproj
+  detection_source_url: https://github.com/anil-sezer/BackOfficeBaseDotNet6/blob/master/src/BackOfficeBase.DataAccess/BackOfficeBase.DataAccess.csproj
   detection_source: src/BackOfficeBase.DataAccess/BackOfficeBase.DataAccess.csproj
   last_updated_by: anil
   last_updated_on: 2022-06-17 14:04:15.000000000 Z
@@ -391,7 +405,7 @@ tools:
   category: Libraries
   sub_category: NuGet Packages
   image_url: https://img.stackshare.io/package/12848/default_ccf90b566c21ad9eaa59733f297e535ea39fb3b4.png
-  detection_source_url: test/BackOfficeBase.Tests.Shared/BackOfficeBase.Tests.Shared.csproj
+  detection_source_url: https://github.com/anil-sezer/BackOfficeBaseDotNet6/blob/master/test/BackOfficeBase.Tests.Shared/BackOfficeBase.Tests.Shared.csproj
   detection_source: test/BackOfficeBase.Tests.Shared/BackOfficeBase.Tests.Shared.csproj
   last_updated_by: anil
   last_updated_on: 2022-06-17 14:04:15.000000000 Z
@@ -405,7 +419,7 @@ tools:
   category: Libraries
   sub_category: NuGet Packages
   image_url: https://img.stackshare.io/package/13026/default_1075538f3811f68c42abfdf5ebcf152058e4076d.png
-  detection_source_url: src/BackOfficeBase.Web.Core/BackOfficeBase.Web.Core.csproj
+  detection_source_url: https://github.com/anil-sezer/BackOfficeBaseDotNet6/blob/master/src/BackOfficeBase.Web.Core/BackOfficeBase.Web.Core.csproj
   detection_source: src/BackOfficeBase.Web.Core/BackOfficeBase.Web.Core.csproj
   last_updated_by: alirizaadiyahsi
   last_updated_on: 2020-11-03 09:54:07.000000000 Z
@@ -419,13 +433,19 @@ tools:
   category: Libraries
   sub_category: NuGet Packages
   image_url: https://img.stackshare.io/package/nuget/image.png
-  detection_source_url: src/BackOfficeBase.Utilities/BackOfficeBase.Utilities.csproj
+  detection_source_url: https://github.com/anil-sezer/BackOfficeBaseDotNet6/blob/master/src/BackOfficeBase.Utilities/BackOfficeBase.Utilities.csproj
   detection_source: src/BackOfficeBase.Utilities/BackOfficeBase.Utilities.csproj
   last_updated_by: alirizaadiyahsi
   last_updated_on: 2020-06-05 19:09:31.000000000 Z
   vulnerabilities:
-  - name: Improper Handling of Exceptional Conditions in Newtonsoft.Json
+  - name: 'Duplicate Advisory: Improper Handling of Exceptional Conditions in Newtonsoft.Json'
     cve_id: 
+    cve_url: https://github.com/advisories/GHSA-8rfx-6mr3-5jh3
+    detected_date: Jan 4
+    severity: high
+    first_patched: 13.0.1
+  - name: Improper Handling of Exceptional Conditions in Newtonsoft.Json
+    cve_id: CVE-2024-21907
     cve_url: https://github.com/advisories/GHSA-5crp-9r3c-p9vr
     detected_date: Jun 23
     severity: high
@@ -440,7 +460,7 @@ tools:
   category: Libraries
   sub_category: NuGet Packages
   image_url: https://img.stackshare.io/package/13194/default_18a92235046d8c8db548cd22b87cf5792dc31759.png
-  detection_source_url: src/BackOfficeBase.Web.Api/BackOfficeBase.Web.Api.csproj
+  detection_source_url: https://github.com/anil-sezer/BackOfficeBaseDotNet6/blob/master/src/BackOfficeBase.Web.Api/BackOfficeBase.Web.Api.csproj
   detection_source: src/BackOfficeBase.Web.Api/BackOfficeBase.Web.Api.csproj
   last_updated_by: anil
   last_updated_on: 2022-06-17 14:04:15.000000000 Z
@@ -454,7 +474,7 @@ tools:
   category: Libraries
   sub_category: NuGet Packages
   image_url: https://img.stackshare.io/package/14375/default_6201d4e597174b346fb0490accc0cfd403259bf9.png
-  detection_source_url: src/BackOfficeBase.Web.Api/BackOfficeBase.Web.Api.csproj
+  detection_source_url: https://github.com/anil-sezer/BackOfficeBaseDotNet6/blob/master/src/BackOfficeBase.Web.Api/BackOfficeBase.Web.Api.csproj
   detection_source: src/BackOfficeBase.Web.Api/BackOfficeBase.Web.Api.csproj
   last_updated_by: anil
   last_updated_on: 2022-06-17 14:04:15.000000000 Z
@@ -468,7 +488,7 @@ tools:
   category: Libraries
   sub_category: NuGet Packages
   image_url: https://img.stackshare.io/package/12920/default_e43fb8cd51d87352a1197706afa527de5c3baecd.png
-  detection_source_url: src/modules/BackOfficeBase.Modules.Authentication/BackOfficeBase.Modules.Authentication.csproj
+  detection_source_url: https://github.com/anil-sezer/BackOfficeBaseDotNet6/blob/master/src/modules/BackOfficeBase.Modules.Authentication/BackOfficeBase.Modules.Authentication.csproj
   detection_source: src/modules/BackOfficeBase.Modules.Authentication/BackOfficeBase.Modules.Authentication.csproj
   last_updated_by: alirizaadiyahsi
   last_updated_on: 2020-11-03 09:54:07.000000000 Z
@@ -483,7 +503,7 @@ tools:
   category: Libraries
   sub_category: NuGet Packages
   image_url: https://img.stackshare.io/package/13064/default_1b8be57b16f1f491c0e5f67e5d1021f4df68ea30.png
-  detection_source_url: src/BackOfficeBase.Application/BackOfficeBase.Application.csproj
+  detection_source_url: https://github.com/anil-sezer/BackOfficeBaseDotNet6/blob/master/src/BackOfficeBase.Application/BackOfficeBase.Application.csproj
   detection_source: src/BackOfficeBase.Application/BackOfficeBase.Application.csproj
   last_updated_by: alirizaadiyahsi
   last_updated_on: 2020-11-03 09:54:07.000000000 Z
@@ -504,7 +524,7 @@ tools:
   category: Libraries
   sub_category: NuGet Packages
   image_url: https://img.stackshare.io/package/13260/default_d2db5a200c4fe2d08cbdb2174cc230708973870b.png
-  detection_source_url: test/BackOfficeBase.Tests.Application/BackOfficeBase.Tests.Application.csproj
-  detection_source: test/BackOfficeBase.Tests.Web.Core/BackOfficeBase.Tests.Web.Core.csproj
+  detection_source_url: https://github.com/anil-sezer/BackOfficeBaseDotNet6/blob/master/test/BackOfficeBase.Tests.Application/BackOfficeBase.Tests.Application.csproj
+  detection_source: test/BackOfficeBase.Tests.Application/BackOfficeBase.Tests.Application.csproj
   last_updated_by: alirizaadiyahsi
   last_updated_on: 2020-08-20 17:03:57.000000000 Z
