@@ -2,7 +2,7 @@ repo_name: anil-sezer/BackOfficeBaseDotNet6
 report_id: 0c6e5397a0479f0e62ef097e9e960283
 version: 0.1
 repo_type: Public
-timestamp: '2024-01-05T08:48:46+00:00'
+timestamp: '2024-02-29T18:40:48+00:00'
 requested_by: anil-sezer
 provider: github
 branch: master
@@ -78,7 +78,7 @@ tools:
   last_updated_by: anil
   last_updated_on: 2022-06-17 14:04:15.000000000 Z
 - name: Entity Framework Core
-  description: 'Lightweight and cross-platform version of the popular Entity Framework '
+  description: Lightweight and cross-platform version of the popular Entity Framework
   website_url: https://docs.microsoft.com/en-us/ef/core/
   version: 6.0.6
   license: MIT
@@ -492,6 +492,19 @@ tools:
   detection_source: src/modules/BackOfficeBase.Modules.Authentication/BackOfficeBase.Modules.Authentication.csproj
   last_updated_by: alirizaadiyahsi
   last_updated_on: 2020-11-03 09:54:07.000000000 Z
+  vulnerabilities:
+  - name: Microsoft Identity Denial of service vulnerability
+    cve_id: CVE-2024-21319
+    cve_url: https://github.com/advisories/GHSA-8g9c-28fc-mcx2
+    detected_date: Jan 10
+    severity: moderate
+    first_patched: 6.34.0
+  - name: 'Microsoft Security Advisory CVE-2024-21319: .NET Denial of Service Vulnerability'
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-59j7-ghrg-fj52
+    detected_date: Jan 10
+    severity: moderate
+    first_patched: 6.34.0
 - name: System.Linq.Dynamic.Core
   description: This is a .NETStandard / .NET Core port of the the Microsoft assembly
     for the .Net 4.0 Dynamic language functionality
